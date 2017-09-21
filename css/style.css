@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+* {
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Ubuntu", sans-serif;
+	color: #686868;
+	text-align: center;  
+}
+
+header {
+  padding-top: 30vh; 
+}
+
+h1, h2 {
+	text-align: center; 
+}
+
+.column {
+	margin: 10px 6px;
+	width: 32.5%;
+	float: left;
+	padding: 10px;
+	position: relative;
+	background: #ededed;
+	margin-right: 5px;
+}
+
+.card {
+	position: relative;
+	background: #d6d6d6;
+	padding: 10px 5px;
+}
+
+button {
+	margin: 0 auto;
+	padding: 10px;
+	background: #707070;
+	color: #fff;
+	border: 0;
+	font-weight: bold;
+	font-size: 12px;
+	border-radius: 2px;
+	cursor: pointer; 
+}
+
+.btn-delete {
+	padding: 0;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background: rgba(0,0,0,0.4);
+	border-radius: 50%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	margin-top: 5px;
+}
+  
+.card-placeholder {
+	background: red; 
+}
+  
