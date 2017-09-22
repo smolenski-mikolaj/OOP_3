@@ -64,12 +64,12 @@ $(function() {
 			var $cardDescription = $('<p>').addClass('card-description').text(self.description);
 			var $cardDelete = $('<button>').addClass('btn-delete').text('x');
 
-			// PRZYPIĘCIE ZDARZENIA
+			// ATTACHING EVENT
 			$cardDelete.click(function(){
 				self.removeCard();
 			});
 
-			// SKŁADANIE I ZWRACANIE KARTY
+			// ASSEMBLING CARD
 			$card.append($cardDescription)
 				.append($cardDelete);
 
@@ -99,8 +99,7 @@ $(function() {
 		}).disableSelection();
 	}
 	
-	$('.create-column')
-	  .click(function(){
+	$('.create-column').on( "click", function() {
 		var name = prompt('Wpisz nazwę kolumny');
 		var column = new Column(name);
 		board.addColumn(column);
