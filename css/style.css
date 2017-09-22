@@ -73,4 +73,8 @@ ul li {
 .card-placeholder {
 	background: red; 
 }
+
+.column-card-list {
+	min-height: 1px;
+}
   
